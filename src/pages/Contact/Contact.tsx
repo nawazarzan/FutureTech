@@ -2,7 +2,6 @@ import ContactHero from "../../components/ContactHero";
 import ContactForm from "../../components/ContactForm";
 import ContactInfo from "../../components/ContactInfo";
 import FollowUs from "../../components/FollowUs";
-import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import "./Contact.css";
 

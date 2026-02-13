@@ -1,6 +1,5 @@
 import "./OurStory.css";
 import Aboutpic from "../assets/Aboutpic.png"; // 👆 replace with your actual image path
-import About from "../pages/About/About";
 // 👆 replace with your actual image path
 
 export default function OurStory() {
