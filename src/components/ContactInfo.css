@@ -1,0 +1,31 @@
+.contact-info h3 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.contact-info p {
+  color: #9fb2cc;
+  margin-bottom: 24px;
+}
+
+.info-card {
+  background: rgba(255,255,255,0.04);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.info-card h4 {
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.info-card strong {
+  display: block;
+  color: #33f3b6;
+}
+
+.info-card span {
+  font-size: 14px;
+  color: #9fb2cc;
+}

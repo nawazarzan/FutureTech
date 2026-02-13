@@ -1,0 +1,17 @@
+.team {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.team-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.team-card {
+  padding: 40px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #0b1220, #020617);
+}

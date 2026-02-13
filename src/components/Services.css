@@ -1,0 +1,83 @@
+.services-section {
+  background: radial-gradient(circle at top left, #1a1f3c, #050816);
+  padding: 120px 0;
+}
+
+.services-container {
+  max-width: 1200px;   /* 🔥 THIS FIXES THE EMPTY SPACE */
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.services-tag {
+  color: #6da7ff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.services-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.services-subtitle {
+  color: #b9c1ff;
+  max-width: 650px;
+  margin: 0 auto 64px;
+  line-height: 1.6;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ✅ PERFECT 3-COLUMN */
+  gap: 32px;
+}
+
+.service-card {
+  background: linear-gradient(180deg, #141a3a, #0b0f2a);
+  border-radius: 20px;
+  padding: 32px;
+  text-align: left;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.service-icon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #6d8cff, #b46cff);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: #b9c1ff;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

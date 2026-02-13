@@ -1,0 +1,50 @@
+.services-page {
+  background: radial-gradient(
+      circle at 30% 30%,
+      rgba(99, 102, 241, 0.25),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 70% 60%,
+      rgba(168, 85, 247, 0.25),
+      transparent 45%
+    ),
+    #050b1a;
+  color: #e5e7eb;
+}
+
+/* HERO */
+.services-hero {
+  min-height: 70vh;
+  padding: 160px 20px 120px;
+  text-align: center;
+}
+
+.services-tag {
+  color: #6da7ff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.services-hero h1 {
+  font-size: clamp(2.8rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.services-hero h1 span {
+  background: linear-gradient(90deg, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services-hero p {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}

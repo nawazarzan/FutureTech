@@ -1,0 +1,49 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: #050b1a;
+  color: #e5e7eb;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+} */
+#root {
+  width: 100%;
+}
+body {
+  background: #050b1a;
+  color: #e5e7eb;
+}
+/* Hide scrollbar but keep scroll working */
+body {
+  overflow-y: scroll;        /* scroll allowed */
+  scrollbar-width: none;     /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;             /* Chrome, Edge, Safari */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+

@@ -1,0 +1,18 @@
+.contact-body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+@media (max-width: 900px) {
+  .contact-body {
+    grid-template-columns: 1fr;
+  }
+}
+.contact-page {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #10243f, #060b18);
+}
